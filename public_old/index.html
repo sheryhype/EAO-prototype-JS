@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>eao-text-view</title>
+  <link rel="stylesheet" href="node_modules/@davidsystems/embedded-audio-object/eao-font-awesome.css">
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+
+    #miscControls {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    #projectLevelControls {
+      display: flex;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="projectLevelControls">
+    <eao-project-controls eao="mainEao"></eao-project-controls>
+    <eao-speaker-edit-controls eao="mainEao"></eao-speaker-edit-controls>
+  </div>
+  <eao-word-edit-controls></eao-word-edit-controls>
+  <eao-text-view></eao-text-view>
+  <eao-time-controls eao="mainEao"></eao-time-controls>
+  <div id="miscControls">
+    <button id="toggleTextLayers">Toggle TextLayers</button>
+  </div>
+  <eao-sequence id="mainEaoSeq" eao="mainEao" wheel-config='{"zoomFactor": 1.1}' waveform-config='{"draggable": true}'
+    trim-enabled fade-enabled show-ruler show-scrollbar sync-soundhead-mode auto-scroll use-auto-height expanded
+    tabindex="1"></eao-sequence>
+  <eao-transport eao="mainEao" id="myCustomTransport">
+    <i class="fa fa-circle" slot="recordIcon"></i>
+    <i class="fa fa-stop" slot="stopRecordingIcon"></i>
+    <i class="fa fa-pause" slot="pauseRecordingIcon"></i>
+    <i class="fa fa-pause" slot="pauseIcon"></i>
+    <i class="fa fa-play" slot="playIcon"></i>
+    <i class="fa fa-volume-off" slot="unmuteIcon"></i>
+    <i class="fa fa-volume-up" slot="muteIcon"></i>
+    <i class="fa fa-sign-out" slot="fixedHeadIcon" style="color: #a0a0a0;"></i>
+    <i class="fa fa-sign-out" slot="movingHeadIcon"></i>
+    <i class="fa fa-fast-backward" slot="headToBeginningIcon"></i>
+    <i class="fa fa-refresh" slot="refreshIcon"></i>
+    <i class="fa fa-circle" slot="recordingIcon" style="color: red;"></i>
+    <div slot="transportCustomArea">
+      <button title="Zoom Out" onclick="mainEaoSeq.zoomOut(2, mainEao.headPosition);"><i aria-hidden="true"
+          class="fa fa-search-minus"></i></button>
+      <button title="Zoom In" onclick="mainEaoSeq.zoomIn(2, mainEao.headPosition);"><i aria-hidden="true"
+          class="fa fa-search-plus"></i></button>
+      <button onclick="mainEao.cutInside();"><i class="fa fa-scissors" aria-hidden="true"></i>Inside</button>
+      <button onclick="mainEao.cutInsideAndMove();"><i class="fa fa-scissors"
+          aria-hidden="true"></i>Inside+Move</button>
+      <button onclick="mainEao.cutOutside();"><i class="fa fa-scissors" aria-hidden="true"></i>Outside</button>
+      <button onclick="mainEao.cutOutsideAndMove();"><i class="fa fa-scissors"
+          aria-hidden="true"></i>Outside+Move</button>
+      <button onclick="mainEao.splitAtPosition();"><i class="fa fa-chain-broken" aria-hidden="true"></i>Split</button>
+      <button onclick="mainEao.splitAtRange();"><i class="fa fa-chain-broken" aria-hidden="true"></i>Split
+        Range</button>
+    </div>
+  </eao-transport>
+  <eao-core id="mainEao" style="display:none;"></eao-core>
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+}
+
+#miscControls {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 14px;
+  padding: 4px;
+}
+
+#miscControls label {
+  margin-left: 8px;
+}
+
+#miscControls button,
+#miscControls select {
+  margin-left: 4px;
+}
+
+#projectLevelControls {
+  display: flex;
+}

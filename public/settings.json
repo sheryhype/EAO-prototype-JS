@@ -1,0 +1,18 @@
+{
+  "transcodingBackend": {
+    "customHeaders": {
+      "Authorization": "Bearer ${authenticationToken}"
+    },
+    "customOptions": {
+    },
+    "userName": "upload",
+    "computerName": "sha-mba",
+    "password": "upload",
+    "authenticationType": "dpe",
+    "virtualPath": "NewMedia\\Production",
+    "uploadService": "https://newmedia.davidsystems.com/DpeWebApplication/UploadMedium.ashx?tableid=${virtualPath}&entryid=${uploadId}",
+    "waveformService": "https://newmedia.davidsystems.com/DpeWebApplication/Waveform.ashx?tableid=${virtualPath}&entryid=${uploadId}",
+    "lowResService": "https://newmedia.davidsystems.com/DpeWebApplication/Media.ashx?tableid=${virtualPath}&entryid=${uploadId}&main=true",
+    "transcriptService": "https://newmedia.davidsystems.com/DpeWebApplication/DownloadMedium.ashx?tableid=${virtualPath}&entryid=${uploadId}&mediumType=Data.SpeechToText"
+  }
+}

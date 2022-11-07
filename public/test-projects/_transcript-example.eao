@@ -1,0 +1,527 @@
+{
+  "EAO": {
+    "Title": "transcript-example",
+    "Comment": "",
+    "Text": "",
+    "Duration": 60000,
+    "LastChange": {
+      "User": "Unknown",
+      "Date": 1664727322311
+    },
+    "Files": [
+      {
+        "Filename": "https://newmedia.davidsystems.com/DpeWebApplication/Media.ashx?tableId=NewMedia\\Production&entryId=72&dpe-auth=MjAyMjA3MjgxMjQyMjA4NDE6U0hBLU1CQTpzaGE6OlNpZ25hdHVyZTpaWGVpRXRFcEdRTlhrUk5Cb3Npa3ZnbVI2TVVubFM0b3BZdDJtMHVXaWNnNHd0YXRxY3huWlVwY21jVGlYd281TXV4WVVDQm1qSzNRNFk1ZkgwNjQrZnJPRWhwbEFwLzRsSjA1STJ5NytqMFlQd3FjMnExMk1iRFI0bkVmeldJVEQ0QUZ6U1JYQ2pGTjBYajlKMStzM3J4eXRzc0h4T1Z0bThWeWRuQ3dIT0NnQmFsTWk0QnBaNkxIUmpOZlVYUlovT1c4MVNOMXZWWXAxeUs3YzZ0aXdyajF5ejkvZ0pFNUZIMEY0bDlYeWVtdHNQNVBvQXdGTUhwcXVJd3o1ZE1SbE4zNU9mYmpnOU9OcVAyS1NzVnRSQVlVdGdsMThISzlaTUdDZGR5RFNnK2x3Vno3SGZoYVFyT3hIOHAwUzFPaVhNSWp4S3BVZnZsVG9UUXlBdm1TdlE9PQ==&main=true",
+        "Format": "Linear",
+        "FileType": "WAV",
+        "Duration": 15846,
+        "MediumIdRef": "6acf554e-3de9-4c3e-84aa-bc58d5265492",
+        "SampleRate": 48000,
+        "SampleCount": 1521216
+      },
+      {
+        "Filename": "https://newmedia.davidsystems.com/DpeWebApplication/Waveform.ashx?tableId=NewMedia\\Production&entryId=72&dpe-auth=MjAyMjA3MjgxMjQyMjA4NDE6U0hBLU1CQTpzaGE6OlNpZ25hdHVyZTpaWGVpRXRFcEdRTlhrUk5Cb3Npa3ZnbVI2TVVubFM0b3BZdDJtMHVXaWNnNHd0YXRxY3huWlVwY21jVGlYd281TXV4WVVDQm1qSzNRNFk1ZkgwNjQrZnJPRWhwbEFwLzRsSjA1STJ5NytqMFlQd3FjMnExMk1iRFI0bkVmeldJVEQ0QUZ6U1JYQ2pGTjBYajlKMStzM3J4eXRzc0h4T1Z0bThWeWRuQ3dIT0NnQmFsTWk0QnBaNkxIUmpOZlVYUlovT1c4MVNOMXZWWXAxeUs3YzZ0aXdyajF5ejkvZ0pFNUZIMEY0bDlYeWVtdHNQNVBvQXdGTUhwcXVJd3o1ZE1SbE4zNU9mYmpnOU9OcVAyS1NzVnRSQVlVdGdsMThISzlaTUdDZGR5RFNnK2x3Vno3SGZoYVFyT3hIOHAwUzFPaVhNSWp4S3BVZnZsVG9UUXlBdm1TdlE9PQ==",
+        "Format": "Peakfile",
+        "FileType": "WAVEFORM",
+        "Duration": 15846,
+        "MediumIdRef": "6acf554e-3de9-4c3e-84aa-bc58d5265492",
+        "SampleRate": 48000,
+        "SampleCount": 1521216
+      },
+      {
+        "Filename": "https://newmedia.davidsystems.com/DpeWebApplication/DownloadMedium.ashx?tableId=NewMedia\\Production&entryId=72&mediumType=Data.SpeechToText&dpe-auth=MjAyMjA3MjgxMjQyMjA4NDE6U0hBLU1CQTpzaGE6OlNpZ25hdHVyZTpaWGVpRXRFcEdRTlhrUk5Cb3Npa3ZnbVI2TVVubFM0b3BZdDJtMHVXaWNnNHd0YXRxY3huWlVwY21jVGlYd281TXV4WVVDQm1qSzNRNFk1ZkgwNjQrZnJPRWhwbEFwLzRsSjA1STJ5NytqMFlQd3FjMnExMk1iRFI0bkVmeldJVEQ0QUZ6U1JYQ2pGTjBYajlKMStzM3J4eXRzc0h4T1Z0bThWeWRuQ3dIT0NnQmFsTWk0QnBaNkxIUmpOZlVYUlovT1c4MVNOMXZWWXAxeUs3YzZ0aXdyajF5ejkvZ0pFNUZIMEY0bDlYeWVtdHNQNVBvQXdGTUhwcXVJd3o1ZE1SbE4zNU9mYmpnOU9OcVAyS1NzVnRSQVlVdGdsMThISzlaTUdDZGR5RFNnK2x3Vno3SGZoYVFyT3hIOHAwUzFPaVhNSWp4S3BVZnZsVG9UUXlBdm1TdlE9PQ==",
+        "Format": "Transcript",
+        "FileType": "S2T",
+        "Duration": 0,
+        "MediumIdRef": "6acf554e-3de9-4c3e-84aa-bc58d5265492",
+        "SampleRate": 0,
+        "SampleCount": 0
+      }
+    ],
+    "Media": [
+      {
+        "MediumId": "6acf554e-3de9-4c3e-84aa-bc58d5265492",
+        "Clips": [
+          {
+            "Title": "clip-00",
+            "Id": "4b365ed1-f032-4e8a-8a89-7212c4145826",
+            "StartPosition": 0,
+            "Duration": 15846,
+            "Comment": "",
+            "Markers": []
+          }
+        ],
+        "TranscriptData": {
+          "Speakers": [
+            {
+              "Id": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Name": "Albert"
+            }
+          ],
+          "Words": [
+            {
+              "Id": "479381a8-4d60-4596-ac4e-1d85942a1a50",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "Hello",
+              "Time": 190,
+              "Duration": 600,
+              "Confidence": 0.61
+            },
+            {
+              "Id": "410ef575-285b-4bba-905e-dbb6dda6a393",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "radio",
+              "Time": 860,
+              "Duration": 450,
+              "Confidence": 0.71
+            },
+            {
+              "Id": "fd13a890-cb04-4372-8cfe-ea99c8ab6217",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "Europe",
+              "Time": 1670,
+              "Duration": 490,
+              "Confidence": 0.7
+            },
+            {
+              "Id": "42355393-4e72-471e-b910-6791cf77b3b6",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": ".",
+              "Time": 2400,
+              "Duration": 700,
+              "Confidence": 0.77
+            },
+            {
+              "Id": "41800d69-0171-4038-8989-3269730c8e5b",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "So",
+              "Time": 3730,
+              "Duration": 320,
+              "Confidence": 0.93
+            },
+            {
+              "Id": "b9bc52bd-d15e-4144-9af0-fbd453a1284b",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "this",
+              "Time": 4050,
+              "Duration": 210,
+              "Confidence": 1
+            },
+            {
+              "Id": "58de93fe-fe5e-4542-a8a3-2c457dc055c2",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "is",
+              "Time": 4260,
+              "Duration": 150,
+              "Confidence": 1
+            },
+            {
+              "Id": "9fa63490-8140-4448-889d-12ded6920637",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "a",
+              "Time": 4410,
+              "Duration": 120,
+              "Confidence": 1
+            },
+            {
+              "Id": "dd08dbbe-80cc-457b-b941-3c794fd2a5ba",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "very",
+              "Time": 4530,
+              "Duration": 660,
+              "Confidence": 1
+            },
+            {
+              "Id": "7ee75eb0-980a-4a5a-946a-ffbe4d78d2d4",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "special",
+              "Time": 5550,
+              "Duration": 480,
+              "Confidence": 1
+            },
+            {
+              "Id": "d6244922-b499-449e-bf3b-143b8e59dcf3",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "episode",
+              "Time": 6030,
+              "Duration": 690,
+              "Confidence": 0.98
+            },
+            {
+              "Id": "9a8c02f5-ac5b-429d-948f-45cf900e6ea9",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "of",
+              "Time": 7200,
+              "Duration": 150,
+              "Confidence": 1
+            },
+            {
+              "Id": "2b9cafcb-f0cf-4ec8-b48e-ac0c10043abb",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "my",
+              "Time": 7350,
+              "Duration": 180,
+              "Confidence": 1
+            },
+            {
+              "Id": "c9f5d24a-2e2a-4bab-89ca-c9bbb258f1e3",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "song",
+              "Time": 7530,
+              "Duration": 180,
+              "Confidence": 0.93
+            },
+            {
+              "Id": "c5ac82b5-53ad-4abc-aabd-4c65d0e0665c",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "story",
+              "Time": 7710,
+              "Duration": 330,
+              "Confidence": 1
+            },
+            {
+              "Id": "aad36a93-b8c4-4f7e-8da6-43f74534d2a0",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "podcast",
+              "Time": 8250,
+              "Duration": 470,
+              "Confidence": 0.85
+            },
+            {
+              "Id": "7243a1cb-54b4-46ec-8308-ccdc03d70193",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "this",
+              "Time": 8720,
+              "Duration": 250,
+              "Confidence": 0.86
+            },
+            {
+              "Id": "b4e2206b-3c1e-4b17-a0ef-716959474217",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "is",
+              "Time": 8970,
+              "Duration": 160,
+              "Confidence": 0.75
+            },
+            {
+              "Id": "64ca26c0-d2f6-4125-bca4-7f12b7ca94bc",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "Albert",
+              "Time": 9130,
+              "Duration": 340,
+              "Confidence": 0.78
+            },
+            {
+              "Id": "f4602b00-d1d4-4abd-a578-ead2f668f9a3",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "by",
+              "Time": 9480,
+              "Duration": 150,
+              "Confidence": 1
+            },
+            {
+              "Id": "ff8bb52c-2f49-4d91-b356-98e20275b911",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "the",
+              "Time": 9630,
+              "Duration": 120,
+              "Confidence": 1
+            },
+            {
+              "Id": "ad76ff0e-8895-46c1-90af-a1eb67c79122",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "way",
+              "Time": 9750,
+              "Duration": 210,
+              "Confidence": 1
+            },
+            {
+              "Id": "79690fb5-729e-4a92-a41d-c6ae2503f5f6",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "we",
+              "Time": 10040,
+              "Duration": 170,
+              "Confidence": 0.91
+            },
+            {
+              "Id": "b87d254e-de94-46fa-98cd-20237a7261d7",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "are",
+              "Time": 10210,
+              "Duration": 110,
+              "Confidence": 0.91
+            },
+            {
+              "Id": "f597af48-da12-4b95-8519-ba36e671a20a",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "doing",
+              "Time": 10320,
+              "Duration": 360,
+              "Confidence": 1
+            },
+            {
+              "Id": "d067e4bf-8a0b-44de-9005-bf29dc65d8f4",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "this",
+              "Time": 10680,
+              "Duration": 240,
+              "Confidence": 1
+            },
+            {
+              "Id": "6a12a913-d709-4284-accd-de0b54014e92",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "podcast",
+              "Time": 11430,
+              "Duration": 540,
+              "Confidence": 1
+            },
+            {
+              "Id": "1a78145a-5162-4f80-a0da-c779231d6ff3",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "just",
+              "Time": 12120,
+              "Duration": 300,
+              "Confidence": 1
+            },
+            {
+              "Id": "98314ded-c71d-4246-9e18-b32211065f86",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "for",
+              "Time": 12420,
+              "Duration": 240,
+              "Confidence": 1
+            },
+            {
+              "Id": "68a74596-3fbf-4ea9-9cf5-5d7dd07516ed",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "you",
+              "Time": 12660,
+              "Duration": 270,
+              "Confidence": 1
+            },
+            {
+              "Id": "d9464451-5886-4f3b-a9c8-7c0492b2647b",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "guys",
+              "Time": 12930,
+              "Duration": 260,
+              "Confidence": 1
+            },
+            {
+              "Id": "301fb509-4836-4e11-90f4-4321bef66890",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "said",
+              "Time": 13200,
+              "Duration": 210,
+              "Confidence": 0.59
+            },
+            {
+              "Id": "090b69c7-0f1b-40d4-a42f-72276bbccee8",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "at",
+              "Time": 14140,
+              "Duration": 200,
+              "Confidence": 0.95
+            },
+            {
+              "Id": "a20e6575-8595-486c-8dfb-24e41d2b4008",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "Radio",
+              "Time": 14910,
+              "Duration": 300,
+              "Confidence": 1
+            },
+            {
+              "Id": "c4c2efe3-c14e-457f-b8f8-0fb5b5ad28e1",
+              "SpeakerId": "e55c55a8-2689-4725-ba6b-abbd96a8977b",
+              "Value": "Europe",
+              "Time": 15380,
+              "Duration": 340,
+              "Confidence": 0.61
+            }
+          ]
+        }
+      }
+    ],
+    "Sequence": {
+      "Tracks": [
+        {
+          "TrackName": "track-00",
+          "TrackElements": [
+            {
+              "Id": "64f08b72-9401-4456-870e-fa6781fcf36f",
+              "RefId": "4b365ed1-f032-4e8a-8a89-7212c4145826",
+              "Position": 0,
+              "Label": "",
+              "Comment": "",
+              "Gain": 1,
+              "Locked": false,
+              "Color": "#1879c7",
+              "FadeIn": {
+                "Curve": "linear",
+                "Duration": 0,
+                "CrossFadeWith": null
+              },
+              "FadeOut": {
+                "Curve": "linear",
+                "Duration": 0,
+                "CrossFadeWith": null
+              },
+              "GainAutomation": [],
+              "TrackElementTranscript": {
+                "Words": [
+                  {
+                    "Id": "a894c739-e549-4412-a02d-5e809fccd82d",
+                    "WordDataRefId": "479381a8-4d60-4596-ac4e-1d85942a1a50"
+                  },
+                  {
+                    "Id": "205c826a-ba2c-4558-ac7c-373fe0b06cbf",
+                    "WordDataRefId": "410ef575-285b-4bba-905e-dbb6dda6a393"
+                  },
+                  {
+                    "Id": "c91e72f8-4e1c-43a9-9ed9-cea83e805616",
+                    "WordDataRefId": "fd13a890-cb04-4372-8cfe-ea99c8ab6217"
+                  },
+                  {
+                    "Id": "d4adba7b-8757-47fa-a4b1-a79b6075b267",
+                    "WordDataRefId": "42355393-4e72-471e-b910-6791cf77b3b6"
+                  },
+                  {
+                    "Id": "75c5237f-ce6b-48f0-809e-0b7616c5632e",
+                    "WordDataRefId": "41800d69-0171-4038-8989-3269730c8e5b"
+                  },
+                  {
+                    "Id": "48e306a0-871b-4768-8d49-89c6e61ff131",
+                    "WordDataRefId": "b9bc52bd-d15e-4144-9af0-fbd453a1284b"
+                  },
+                  {
+                    "Id": "53433da8-d129-4ade-a962-d89dff7a33aa",
+                    "WordDataRefId": "58de93fe-fe5e-4542-a8a3-2c457dc055c2"
+                  },
+                  {
+                    "Id": "937c84cb-e0a9-4ef6-8af3-6a7589b095e9",
+                    "WordDataRefId": "9fa63490-8140-4448-889d-12ded6920637"
+                  },
+                  {
+                    "Id": "74c3a447-6251-4e35-b000-b3da5c5fe007",
+                    "WordDataRefId": "dd08dbbe-80cc-457b-b941-3c794fd2a5ba"
+                  },
+                  {
+                    "Id": "42b665cc-ca0e-427b-9f3c-b7177685057e",
+                    "WordDataRefId": "7ee75eb0-980a-4a5a-946a-ffbe4d78d2d4"
+                  },
+                  {
+                    "Id": "c97eaf15-31f8-45ce-a32c-9f660fa08db2",
+                    "WordDataRefId": "d6244922-b499-449e-bf3b-143b8e59dcf3"
+                  },
+                  {
+                    "Id": "0c3b9941-97a4-4c01-8c0c-adb186ee4797",
+                    "WordDataRefId": "9a8c02f5-ac5b-429d-948f-45cf900e6ea9"
+                  },
+                  {
+                    "Id": "64606e63-4c79-4783-b79f-9229d86f3164",
+                    "WordDataRefId": "2b9cafcb-f0cf-4ec8-b48e-ac0c10043abb"
+                  },
+                  {
+                    "Id": "512fc4cf-e9f8-40f5-adeb-448d909a3fab",
+                    "WordDataRefId": "c9f5d24a-2e2a-4bab-89ca-c9bbb258f1e3"
+                  },
+                  {
+                    "Id": "f0b3b7f0-940f-47af-9012-e711e3f52ec3",
+                    "WordDataRefId": "c5ac82b5-53ad-4abc-aabd-4c65d0e0665c"
+                  },
+                  {
+                    "Id": "50a89314-0ca1-4542-b755-14b7a969df45",
+                    "WordDataRefId": "aad36a93-b8c4-4f7e-8da6-43f74534d2a0"
+                  },
+                  {
+                    "Id": "6cc53566-81be-494a-8f87-e364d4e5141a",
+                    "WordDataRefId": "7243a1cb-54b4-46ec-8308-ccdc03d70193"
+                  },
+                  {
+                    "Id": "b7ac23a3-685c-49b9-a120-e632dde0059d",
+                    "WordDataRefId": "b4e2206b-3c1e-4b17-a0ef-716959474217"
+                  },
+                  {
+                    "Id": "7d23dc1b-2a38-4b69-b4c5-5f2f2f4d1f65",
+                    "WordDataRefId": "64ca26c0-d2f6-4125-bca4-7f12b7ca94bc"
+                  },
+                  {
+                    "Id": "933c8b5e-575a-484c-a3fe-cc71e2264cc8",
+                    "WordDataRefId": "f4602b00-d1d4-4abd-a578-ead2f668f9a3"
+                  },
+                  {
+                    "Id": "0f6bde55-d792-4b64-ba89-1b141dd562bc",
+                    "WordDataRefId": "ff8bb52c-2f49-4d91-b356-98e20275b911"
+                  },
+                  {
+                    "Id": "32c00b46-3d24-4545-b601-3d7d55ba4b08",
+                    "WordDataRefId": "ad76ff0e-8895-46c1-90af-a1eb67c79122"
+                  },
+                  {
+                    "Id": "0e0ef1d5-066c-44ab-ade0-c93b60affaf4",
+                    "WordDataRefId": "79690fb5-729e-4a92-a41d-c6ae2503f5f6"
+                  },
+                  {
+                    "Id": "8f2d8b5f-2205-459c-91a5-dff1c603daf0",
+                    "WordDataRefId": "b87d254e-de94-46fa-98cd-20237a7261d7"
+                  },
+                  {
+                    "Id": "ff807b11-db03-4752-9704-b066e113d357",
+                    "WordDataRefId": "f597af48-da12-4b95-8519-ba36e671a20a"
+                  },
+                  {
+                    "Id": "8bbda5d5-6205-4b85-a3f5-15f91ade88cb",
+                    "WordDataRefId": "d067e4bf-8a0b-44de-9005-bf29dc65d8f4"
+                  },
+                  {
+                    "Id": "062c7f51-258d-4e2a-b7b9-c269394de5c6",
+                    "WordDataRefId": "6a12a913-d709-4284-accd-de0b54014e92"
+                  },
+                  {
+                    "Id": "60a7c0ac-3d24-4b79-9fd3-8aa7cd7aa8b9",
+                    "WordDataRefId": "1a78145a-5162-4f80-a0da-c779231d6ff3"
+                  },
+                  {
+                    "Id": "17985623-3391-4762-ac97-8d332c181543",
+                    "WordDataRefId": "98314ded-c71d-4246-9e18-b32211065f86"
+                  },
+                  {
+                    "Id": "864fd2ea-ac33-42f6-8dbd-f207ac8f3c01",
+                    "WordDataRefId": "68a74596-3fbf-4ea9-9cf5-5d7dd07516ed"
+                  },
+                  {
+                    "Id": "eb9092ed-d73b-4f6e-b8a2-d3cd7d42c7fd",
+                    "WordDataRefId": "d9464451-5886-4f3b-a9c8-7c0492b2647b"
+                  },
+                  {
+                    "Id": "705168f8-41ca-4f5a-b921-8493ca63814c",
+                    "WordDataRefId": "301fb509-4836-4e11-90f4-4321bef66890"
+                  },
+                  {
+                    "Id": "fab2c612-ab63-48a0-8057-4abd6460b156",
+                    "WordDataRefId": "090b69c7-0f1b-40d4-a42f-72276bbccee8"
+                  },
+                  {
+                    "Id": "1c63011a-8d2d-43dc-bf13-3fc7bac3704b",
+                    "WordDataRefId": "a20e6575-8595-486c-8dfb-24e41d2b4008"
+                  },
+                  {
+                    "Id": "8b2f8d16-9730-4ae6-993f-acda8b590670",
+                    "WordDataRefId": "c4c2efe3-c14e-457f-b8f8-0fb5b5ad28e1"
+                  }
+                ]
+              }
+            }
+          ],
+          "Muted": false,
+          "Placeholders": [],
+          "Locked": false,
+          "Color": "#1879c7"
+        }
+      ],
+      "Markers": [],
+      "Groups": []
+    },
+    "CustomData": {}
+  }
+}

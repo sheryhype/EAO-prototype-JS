@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>eao-text-view</title>
+    <link rel="stylesheet" href="node_modules/@davidsystems/embedded-audio-object/eao-font-awesome.css">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div id="projectLevelControls">
+      <eao-project-controls eao="mainEao"></eao-project-controls>
+      <eao-speaker-edit-controls eao="mainEao"></eao-speaker-edit-controls>
+    </div>
+    <eao-word-edit-controls></eao-word-edit-controls>
+    <eao-text-view></eao-text-view>
+    <eao-time-controls eao="mainEao"></eao-time-controls>
+    <div id="miscControls">
+      <label for="snapToggleCheckbox">Snap</label><input id="snapToggleCheckbox" type="checkbox">
+      <label for="dropModeSelect">DropMode:</label>
+      <select id="dropModeSelect">
+        <option value="overwrite">overwrite</option>
+        <option value="crossfade">crossfade</option>
+        <option value="shuffle">shuffle</option>
+        <option value="insert">insert</option>
+      </select>
+      <label for="selectionModeSelect">SelectionMode:</label>
+      <select id="selectionModeSelect">
+        <option value="range">range</option>
+        <option value="marquee">marquee</option>
+      </select>
+      <label for="autoScrollCheckbox">Auto-Scroll</label><input id="autoScrollCheckbox" type="checkbox" checked>
+      <label for="showTextLayersCheckbox">Show TextLayers</label><input id="showTextLayersCheckbox" type="checkbox" checked>
+      <label for="autoAdjustMarkInMarkOutToWordBoundariesCheckbox">Auto Adjust MarkIn-MarkOut To Word Boundaries</label><input id="autoAdjustMarkInMarkOutToWordBoundariesCheckbox" type="checkbox" checked>
+    </div>
+    <eao-sequence id="mainEaoSeq" eao="mainEao" tabindex="1"></eao-sequence>
+    <!-- <eao-sequence id="mainEaoSeq" tabindex="1"></eao-sequence> -->
+    <eao-transport eao="mainEao" id="myCustomTransport">
+      <i class="fa fa-circle" slot="recordIcon"></i>
+      <i class="fa fa-stop" slot="stopRecordingIcon"></i>
+      <i class="fa fa-pause" slot="pauseRecordingIcon"></i>
+      <i class="fa fa-pause" slot="pauseIcon"></i>
+      <i class="fa fa-play" slot="playIcon"></i>
+      <i class="fa fa-volume-off" slot="unmuteIcon"></i>
+      <i class="fa fa-volume-up" slot="muteIcon"></i>
+      <i class="fa fa-sign-out" slot="fixedHeadIcon" style="color: #a0a0a0;"></i>
+      <i class="fa fa-sign-out" slot="movingHeadIcon"></i>
+      <i class="fa fa-fast-backward" slot="headToBeginningIcon"></i>
+      <i class="fa fa-refresh" slot="refreshIcon"></i>
+      <i class="fa fa-circle" slot="recordingIcon" style="color: red;"></i>
+      <div slot="transportCustomArea">
+        <button title="Zoom Out" onclick="mainEaoSeq.zoomOut(2, mainEao.headPosition);"><i aria-hidden="true" class="fa fa-search-minus"></i></button>
+        <button title="Zoom In" onclick="mainEaoSeq.zoomIn(2, mainEao.headPosition);"><i aria-hidden="true" class="fa fa-search-plus"></i></button>
+        <button onclick="mainEao.cutRangeAndMove();"><i class="fa fa-scissors" aria-hidden="true"></i>Cut Range</button>
+        <button onclick="mainEao.cutOutsideAndMove();"><i class="fa fa-scissors" aria-hidden="true"></i>Crop</button>
+        <button onclick="mainEao.insert();"><i class="fa fa-paste" aria-hidden="true"></i>Insert</button>
+        <button onclick="mainEao.splitAtPosition();"><i class="fa fa-chain-broken" aria-hidden="true"></i>Split</button>
+        <button onclick="mainEao.splitAtRange();"><i class="fa fa-chain-broken" aria-hidden="true"></i>Split Range</button>
+      </div>
+    </eao-transport>
+    <eao-core id="mainEao" style="display:none;"></eao-core>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
